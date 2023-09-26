@@ -28,10 +28,15 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: purple;
+  background-color: rgb(63, 60, 227);
   color: whitesmoke;
   position: sticky;
   top: 0;
+}
+
+.increase {
+  padding: 0.5rem;
+  border-radius: 15px;
 }
 
 nav {
@@ -48,12 +53,14 @@ nav ul li {
   margin-right: 1rem;
 }
 
-nav a, nav a:visited {
+nav a,
+nav a:visited {
   color: #fff;
   text-decoration: none;
 }
 
-nav a:hover, nav a:focus {
+nav a:hover,
+nav a:focus {
   text-decoration: underline;
 }
 
@@ -101,13 +108,13 @@ textarea {
   font-size: 1rem;
 }
 
-.postCredit a, 
+.postCredit a,
 .postCredit a:visited {
   margin-right: 0.5rem;
   color: black;
 }
 
-.postCredit a:hover, 
+.postCredit a:hover,
 .postCredit a:focus {
   color: hsla(0, 0%, 0%, 0.75);
 }
